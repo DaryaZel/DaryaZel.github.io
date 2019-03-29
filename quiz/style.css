@@ -1,0 +1,23 @@
+body{
+     font-size: 20px;
+}
+ .question{
+     font-weight: 600;
+}
+ .answers {
+     margin-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: baseline;
+}
+ .submit{
+     font-size: 20px;
+     border: 0px;
+     padding: 20px;
+     cursor: pointer;
+     margin-bottom: 20px;
+}
+ .submit:hover{
+     background-color: #D3D3D3;
+}

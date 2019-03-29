@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+      <title>quiz</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1 class="wrapper__header">Какой Вы алкоголь?</h1>
+      <div id="box" class="box">
+         <div class="all">
+            <div class="question0">Тебе предложили поехать в незнакомую страну, твой ответ:</div>
+            <div class="answers">
+               <label>
+               <input type="radio" name="question0" value="Пивасик">Cпасибо, но нет.
+               </label>
+               <label>
+               <input type="radio" name="question0" value="Мартини">А какой номер в отеле будет?
+               </label>
+               <label>
+               <input type="radio" name="question0" value="Вискарик">Только я выбираю, чем мы будем заниматься!
+               </label>
+               <label>
+               <input type="radio" name="question0" value="Водочка">Конечно, когда выезжаем?
+               </label>
+            </div>
+            <div class="question1">Какой у тебя характер?</div>
+            <div class="answers">
+               <label>
+               <input type="radio" name="question1" value="Водочка">Я всегда душа компании
+               </label>
+               <label>
+               <input type="radio" name="question1" value="Вискарик">Сдержанный, но иногда и вспылить могу
+               </label>
+               <label>
+               <input type="radio" name="question1" value="Мартини">Легкомысленный
+               </label>
+               <label>
+               <input type="radio" name="question1" value="Пивасик">Нормальный
+               </label>
+            </div>
+            <div class="question2">Без какой еды закуска не закуска:</div>
+            <div class="answers">
+               <label>
+               <input type="radio" name="question2" value="Мартини">Фрукты, сыр
+               </label>
+               <label>
+               <input type="radio" name="question2" value="Водочка">Селёдочка, огурчики
+               </label>
+               <label>
+               <input type="radio" name="question2" value="Вискарик">Мясо, да побольше
+               </label>
+               <label>
+               <input type="radio" name="question2" value="Пивасик">Ну и вопрос, конечно же чипсы!
+               </label>
+            </div>
+            <div class="question3">У тебя много друзей?</div>
+            <div class="answers">
+               <label>
+               <input type="radio" name="question3" value="Вискарик">Есть хорошие знакомые
+               </label>
+               <label>
+               <input type="radio" name="question3" value="Водочка">Ой, подружек-то хватает
+               </label>
+               <label>
+               <input type="radio" name="question3" value="Мартини">Все люди мои друзья, а с ними - и море по колено
+               </label>
+               <label>
+               <input type="radio" name="question3" value="Вискарик">Ну есть пару дружбанов
+               </label>
+            </div>
+            <div class="question4">Как часто отмечаешь праздники с алкоголем?</div>
+            <div class="answers">
+               <label>
+               <input type="radio" name="question4" value="Пивасик">Для меня каждый день - праздник!
+               </label>
+               <label>
+               <input type="radio" name="question4" value="Водочка">Ну как все, там новый год, день вдв
+               </label>
+               <label>
+               <input type="radio" name="question4" value="Мартини">Пить не обязательно только по праздникам, можно и по настроению!
+               </label>
+               <label>
+               <input type="radio" name="question4" value="Вискарик">Пью только в крайних случаях, но метко
+               </label>
+            </div>
+         </div>
+      </div>
+      <button id="submit" class="submit">Who you are</button>
+      <div id="results" class="results">
+         <span class="result__header">Ура! Вы:</span>
+         <span id= result__contain class="result__contain"></span>
+      </div>
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+</html>
