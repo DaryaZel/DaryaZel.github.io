@@ -2,7 +2,6 @@ let box = document.getElementById("box"),
     submition = document.getElementById("submit"),
     myResult = document.getElementById("result__contain")
 
-
 function showResults(box) {
     let answerContainers = box.querySelectorAll('.answers');
     debugger
